@@ -1,0 +1,31 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ2970
+D Li-ion/Li-poly Batt Protection IC 6WSON - 800401-006
+$ENDCMP
+#
+$CMP LNK306
+D Power Integrations LNK306
+K LNK306
+$ENDCMP
+#
+$CMP MAX619CSA+
+D Regulated 5V Charge Pump DC-DC Converter, 800401-002
+K MAX619
+$ENDCMP
+#
+$CMP REG1117-3.3
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
+K REGULATOR LDO 3.3V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP TPS63031
+D High Eff Buck-Boost IC 3.3V Out 0.5A 10VSON - 800401-005
+$ENDCMP
+#
+$CMP TPS73733DCQR
+D TPS73733 LVR 3.3V 1A SOT-223-6 - 800401-003
+$ENDCMP
+#
+#End Doc Library

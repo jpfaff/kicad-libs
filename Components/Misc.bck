@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BATT_HOLDER
+D CR2025/CR2032 Battery Holder, THD, 801002-001
+$ENDCMP
+#
+$CMP DHT11
+D DHT11 Temperature and Humidity Sensor - 801002-003
+$ENDCMP
+#
+$CMP MQ2
+D MQ2 Gas Sensor Module - 801002-005
+$ENDCMP
+#
+$CMP PIR
+D PIR Motion Sensor - 801002-006
+$ENDCMP
+#
+$CMP SmartCardHolder
+D Smart Card Holder, 801002-002
+$ENDCMP
+#
+#End Doc Library

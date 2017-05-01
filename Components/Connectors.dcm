@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_01X03
+D Connector 01x03
+$ENDCMP
+#
+$CMP CONN_01X08
+D Connector 01x08
+$ENDCMP
+#
+$CMP CONN_01X2
+D Connector 01x2
+$ENDCMP
+#
+$CMP CONN_01X4
+D Connector 01x4
+$ENDCMP
+#
+$CMP CONN_02X10
+D Connector 02x10
+$ENDCMP
+#
+$CMP MicroUSB
+D USB Micro B Receptacle, SMD 90° with THD, 803001-004
+$ENDCMP
+#
+#End Doc Library

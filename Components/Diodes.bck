@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP D
+D Diode
+$ENDCMP
+#
+$CMP D_TVS
+D Bidirectional transient-voltage-suppression (TVS) diode
+K diode TVS
+F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
+$ENDCMP
+#
+$CMP ZENER
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library

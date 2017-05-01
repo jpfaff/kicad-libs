@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP CPol
+D Polarised capacitor
+$ENDCMP
+#
+$CMP F
+D Ferrite Bead
+$ENDCMP
+#
+$CMP IND
+D Inductance
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R DEV
+$ENDCMP
+#
+$CMP RVAR
+D Varistor
+$ENDCMP
+#
+#End Doc Library

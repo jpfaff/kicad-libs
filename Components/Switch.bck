@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KeyPad12Button
+D Keypad - 12 Button, 800902-001
+$ENDCMP
+#
+$CMP Tactile_Switch
+D SMD Tactile Switch 5.2x5.2mm - 8009001-001
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,41 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC817
+D 45V Vce, 0.8A Ic, NPN, SOT-23 - 800701-004
+K BC817 BC337 Equivalent
+F http://www.fairchildsemi.com/ds/BC/BC817.pdf
+$ENDCMP
+#
+$CMP BC818-40
+D 25V Vce, 0.8A Ic, NPN, SOT-23
+K BC818 BC337 Equivalent
+F http://www.fairchildsemi.com/ds/BC/BC817.pdf
+$ENDCMP
+#
+$CMP BSS138
+D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23 - 800701-003
+K N-Channel MOSFET Logic Level
+F http://www.fairchildsemi.com/ds/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP BT138-800G.127
+D TRIAC 800V 12A TO220AB
+K TRIAC BT138
+$ENDCMP
+#
+$CMP DRV8832
+D DRV8832 Bip. Motor Driver 10-VSON - 800701-002
+$ENDCMP
+#
+$CMP MMBT3904LT1G
+D 40V Vce, 0.2A Ic, NPN, Small Signal Transistor, SOT-23
+K MMBT3904 NPN Transistor
+F http://www.nxp.com/documents/data_sheet/MMBT3904.pdf
+$ENDCMP
+#
+$CMP NPN-Generic
+D NPN Transistor
+K NPN Transistor
+$ENDCMP
+#
+#End Doc Library

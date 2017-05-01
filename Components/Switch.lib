@@ -1,0 +1,56 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# KeyPad12Button
+#
+DEF KeyPad12Button S 0 40 Y Y 1 F N
+F0 "S" -300 450 60 H V C CNN
+F1 "KeyPad12Button" 0 350 60 H V C CNN
+F2 "" 150 0 60 H V C CNN
+F3 "" -350 750 60 H V C CNN
+F4 "800902-001" 200 450 30 H V C CNN "PartNumber"
+DRAW
+S -350 150 350 300 0 1 0 N
+X 1 1 -300 0 150 U 40 40 1 1 P
+X 2 2 -200 0 150 U 40 40 1 1 P
+X 3 3 -100 0 150 U 40 40 1 1 P
+X 4 4 0 0 150 U 40 40 1 1 P
+X 5 5 100 0 150 U 40 40 1 1 P
+X 6 6 200 0 150 U 40 40 1 1 P
+X 7 7 300 0 150 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Tactile_Switch
+#
+DEF ~Tactile_Switch S 0 0 N N 1 F N
+F0 "S" -100 200 60 H V C CNN
+F1 "Tactile_Switch" 0 -100 60 H I C CNN
+F2 "SMD_Misc:tact_switch_5.2mm" -200 100 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "800901-001" 0 -50 30 H V C CNN "PartNumber"
+DRAW
+P 2 0 1 0 -150 50 150 50 N
+P 4 0 1 0 -50 50 -50 100 50 100 50 50 N
+X 1 1 -300 0 200 R 50 50 1 1 I I
+X 2 2 300 0 200 L 50 50 1 1 I I
+ENDDRAW
+ENDDEF
+#
+# Tactile_Switch_hor
+#
+DEF ~Tactile_Switch_hor S 0 0 N N 1 F N
+F0 "S" -100 200 60 H V C CNN
+F1 "Tactile_Switch_hor" 0 -100 60 H I C CNN
+F2 "SMD_Misc:tact_switch_hor_4.7x3.5mm" -200 100 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "800901-002" 0 -50 30 H V C CNN "PartNumber"
+DRAW
+P 2 0 1 0 -150 50 150 50 N
+P 4 0 1 0 -50 50 -50 100 50 100 50 50 N
+X 1 1 -300 0 200 R 50 50 1 1 I I
+X 2 2 300 0 200 L 50 50 1 1 I I
+ENDDRAW
+ENDDEF
+#
+#End Library
