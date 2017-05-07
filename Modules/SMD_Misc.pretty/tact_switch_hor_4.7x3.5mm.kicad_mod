@@ -1,8 +1,8 @@
 (module tact_switch_hor_4.7x3.5mm (layer F.Cu) (tedit 58F63403)
-  (fp_text reference REF** (at 0 5.08) (layer F.SilkS)
+  (fp_text reference S3 (at -0.347741 -3.081848) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value tact_switch_hor_4.7x3.5mm (at 0 -5.08) (layer F.Fab)
+  (fp_text value Tactile_Switch_hor (at 0 -5.08) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 1.2 2.7) (end 1.2 1.8) (layer F.SilkS) (width 0.15))
@@ -22,9 +22,9 @@
   (pad 1 smd rect (at 2.8 -0.85) (size 1.2 1) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at 0 -1.375) (size 1 1) (drill 0.75) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 0 1.375) (size 1 1) (drill 0.75) (layers *.Cu *.Mask))
-  (model Buttons_Switches_SMD.3dshapes/SW_SPST_EVQQ2_03W.wrl
+  (model Switches/SMD_side_push.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )

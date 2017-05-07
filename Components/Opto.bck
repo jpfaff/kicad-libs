@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED
+D LED GREEN Clear, 2V, 20mA 0805 SMD - 800501-001
+$ENDCMP
+#
+$CMP MOC3062M
+D DIP6,  Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
+$ENDCMP
+#
+$CMP NHD-C0216AZ
+D LCD COG CHAR 2x16, 800502-002
+$ENDCMP
+#
+#End Doc Library

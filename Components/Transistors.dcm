@@ -12,6 +12,10 @@ K BC818 BC337 Equivalent
 F http://www.fairchildsemi.com/ds/BC/BC817.pdf
 $ENDCMP
 #
+$CMP BC856
+D PNP Transistor, 65Vce, 0.1A Ic, SOT-23 - 800701-005
+$ENDCMP
+#
 $CMP BSS138
 D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23 - 800701-003
 K N-Channel MOSFET Logic Level
