@@ -37,6 +37,22 @@ X 2 2 300 0 200 L 50 50 1 1 I I
 ENDDRAW
 ENDDEF
 #
+# Tactile_Switch_5mm
+#
+DEF ~Tactile_Switch_5mm S 0 0 N N 1 F N
+F0 "S" -100 200 60 H V C CNN
+F1 "Tactile_Switch_5mm" 0 -100 60 H I C CNN
+F2 "SMD_Misc:tact_switch_5mm" -200 100 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "800901-003" 0 -50 30 H V C CNN "PartNumber"
+DRAW
+P 2 0 1 0 -150 50 150 50 N
+P 4 0 1 0 -50 50 -50 100 50 100 50 50 N
+X 1 1 -300 0 200 R 50 50 1 1 I I
+X 2 2 300 0 200 L 50 50 1 1 I I
+ENDDRAW
+ENDDEF
+#
 # Tactile_Switch_hor
 #
 DEF ~Tactile_Switch_hor S 0 0 N N 1 F N
@@ -50,6 +66,25 @@ P 2 0 1 0 -150 50 150 50 N
 P 4 0 1 0 -50 50 -50 100 50 100 50 50 N
 X 1 1 -300 0 200 R 50 50 1 1 I I
 X 2 2 300 0 200 L 50 50 1 1 I I
+ENDDRAW
+ENDDEF
+#
+# slide
+#
+DEF slide S 0 40 Y Y 1 F N
+F0 "S" -300 150 60 H V C CNN
+F1 "slide" -50 -200 60 H V C CNN
+F2 "THD_Misc:OS102011-slide-switch" -400 50 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "800902-002" -50 -150 30 H V C CNN "PartNumber"
+DRAW
+C -150 0 18 0 1 0 N
+C 0 -100 18 0 1 0 N
+C 0 100 18 0 1 0 N
+P 2 0 1 0 -20 100 -130 0 N
+X ~ 1 200 100 200 L 50 50 1 1 I
+X ~ 2 -350 0 200 R 50 50 1 1 I
+X ~ 3 200 -100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

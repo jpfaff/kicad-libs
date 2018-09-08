@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BQ24050
+D 1A, Single-Input, Single Cell Li-Ion Charger - 800401-007
+$ENDCMP
+#
 $CMP BQ2970
 D Li-ion/Li-poly Batt Protection IC 6WSON - 800401-006
 $ENDCMP

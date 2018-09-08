@@ -8,8 +8,16 @@ $CMP Tactile_Switch
 D SMD Tactile Switch 5.2x5.2mm - 8009001-001
 $ENDCMP
 #
+$CMP Tactile_Switch_5mm
+D SMD Tactile Switch 5x5mm - 8009001-003
+$ENDCMP
+#
 $CMP Tactile_Switch_hor
 D SMD Tactile Switch hor 4.7x3.5mm - 8009001-002
+$ENDCMP
+#
+$CMP slide
+D SWITCH SLIDE SPDT 100MA 12V - 800902-002
 $ENDCMP
 #
 #End Doc Library
